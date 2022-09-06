@@ -1,0 +1,30 @@
+.padding_container {
+  padding: 0 15px;
+}
+
+@media only screen and (min-width: 768px) {
+  .padding_container {
+    padding: 0 7.5px;
+  }
+
+  .width_container {
+    margin: 0 auto;
+    max-width: 736px;
+  }
+}
+
+@media only screen and (min-width: 1006px) {
+  .width_container {
+    padding: 0 6.5px;
+  }
+
+  .content_container {
+    max-width: 976px;
+  }
+}
+
+@media only screen and (min-width: 1260px) {
+  .width_container {
+    max-width: 1230px;
+  }
+}
