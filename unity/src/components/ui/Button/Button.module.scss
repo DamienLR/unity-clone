@@ -1,0 +1,17 @@
+@use "../../../partials/colours" as c;
+
+.btn {
+  background-color: c.$blue;
+  border: none;
+  border-radius: 4px;
+  color: c.$white;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.75rem 1rem;
+  transition: background-color 0.4s ease;
+}
+
+.btn:hover {
+  background-color: c.$blue-hover;
+  cursor: pointer;
+}
