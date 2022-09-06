@@ -1,0 +1,46 @@
+.lists {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem 0;
+  margin-bottom: 5.5rem;
+}
+
+.link_list {
+  h4 {
+    font-size: 0.875rem;
+  }
+
+  ul {
+    line-height: 1.5;
+  }
+
+  a {
+    font-size: 0.75rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 1006px) {
+  .lists {
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 2.5rem;
+  }
+
+  .link_list {
+    h4 {
+      font-size: 1rem;
+    }
+
+    a {
+      font-size: 0.875rem;
+    }
+  }
+}
+
+@media only screen and (min-width: 1260px) {
+  .lists {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
