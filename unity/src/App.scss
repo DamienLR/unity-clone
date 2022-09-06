@@ -9,16 +9,15 @@
 
   .width_container {
     margin: 0 auto;
-    max-width: 736px;
   }
 }
 
 @media only screen and (min-width: 1006px) {
-  .width_container {
+  .padding_container {
     padding: 0 6.5px;
   }
 
-  .content_container {
+  .width_container {
     max-width: 976px;
   }
 }
