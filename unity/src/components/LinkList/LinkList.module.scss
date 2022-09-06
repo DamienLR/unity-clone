@@ -1,0 +1,20 @@
+@use "../../partials/colours" as c;
+
+.link_list {
+  line-height: 1.5rem;
+
+  li {
+    list-style: none;
+  }
+}
+
+.header {
+  color: c.$white;
+  font-weight: 400;
+}
+
+.list_item {
+  color: c.$grey;
+  font-weight: 400;
+  text-decoration: none;
+}
