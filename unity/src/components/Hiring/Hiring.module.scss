@@ -1,0 +1,85 @@
+.image {
+  border-radius: 6px;
+  width: 100%;
+}
+
+.header {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+  margin: 2.225rem 0 1rem;
+}
+
+.paragraph {
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+
+.button {
+  margin: 2rem 0 5.5rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .component {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .text_container {
+    width: 50%;
+  }
+
+  .header,
+  .paragraph {
+    width: 18rem;
+  }
+
+  .image_container {
+    text-align: end;
+    width: 50%;
+  }
+
+  .image {
+    width: 353px;
+  }
+
+  .header {
+    margin: 0 0 1rem;
+  }
+
+  .button {
+    margin: 2rem 0 8.5rem;
+  }
+}
+
+@media only screen and (min-width: 1006px) {
+  .header {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+
+  .header,
+  .paragraph {
+    width: 25rem;
+  }
+
+  .image {
+    width: 473px;
+  }
+}
+
+@media only screen and (min-width: 1260px) {
+  .header,
+  .paragraph {
+    width: 30rem;
+  }
+
+  .button {
+    margin: 2rem 0 10.5rem;
+  }
+
+  .image {
+    width: 600px;
+  }
+}
