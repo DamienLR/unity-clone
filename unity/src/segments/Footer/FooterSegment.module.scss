@@ -1,0 +1,22 @@
+.segment {
+  background-color: black;
+
+  hr {
+    border-top: 1px solid #666;
+    border-bottom: 0;
+    margin: 40px 0;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .flex_container {
+    display: flex;
+    padding-top: 3.75rem;
+  }
+}
+
+@media only screen and (min-width: 1006px) {
+}
+
+@media only screen and (min-width: 1260px) {
+}
