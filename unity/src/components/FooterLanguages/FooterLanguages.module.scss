@@ -1,0 +1,39 @@
+@use "../../partials/colours" as c;
+
+.component {
+  padding: 4rem 0 1.25rem;
+}
+
+.link_list {
+  // this was not the best way of doing this...
+
+  h4 {
+    color: c.$light-grey;
+    margin-bottom: 0.5rem;
+  }
+
+  ul {
+    display: grid;
+    grid-template-columns: repeat(3, 80px);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .component {
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width: 1006px) {
+  .component {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1260px) {
+  .component {
+    ul {
+      grid-template-columns: repeat(5, 15%);
+    }
+  }
+}
