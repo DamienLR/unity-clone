@@ -1,0 +1,68 @@
+@use "../../partials/colours" as c;
+
+.component {
+  background-color: c.$grey;
+  background-image: url("../../assets/images/contact.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 6px;
+  color: c.$white;
+  padding: 60px 40px;
+  margin-bottom: 3rem;
+}
+
+.header {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+}
+
+.paragraph {
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 2rem;
+  padding: 1rem 0 2rem;
+}
+
+.button {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .component {
+    padding: 120px 60px;
+  }
+
+  .header,
+  .paragraph {
+    width: 30rem;
+  }
+  .button {
+    margin-bottom: 0;
+    width: auto;
+  }
+}
+
+@media only screen and (min-width: 1006px) {
+  .header {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    width: 32rem;
+  }
+
+  .paragraph {
+    width: 39rem;
+  }
+}
+
+@media only screen and (min-width: 1260px) {
+  .header {
+    width: 42rem;
+  }
+
+  .paragraph {
+    width: 50rem;
+  }
+}
