@@ -1,4 +1,5 @@
 import Hero from "./components/Hero/Hero";
+import IndustriesSegment from "./segments/Industries/IndustriesSegment";
 import Hiring from "./components/Hiring/Hiring";
 import Sponsors from "./components/Sponsors/Sponsors";
 import Contact from "./components/Contact/Contact";
@@ -9,6 +10,7 @@ export default function App() {
   return (
     <div className="app">
       <Hero />
+      <IndustriesSegment />
       <Hiring />
       <Sponsors />
       <Contact />
