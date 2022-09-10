@@ -1,0 +1,70 @@
+@use "../../partials/colours" as c;
+
+.component {
+  background-image: url("../../assets/images/hero.jpg");
+  background-color: c.$black;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: c.$white;
+  padding: 0 15px;
+}
+
+.paragraph {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  line-height: 1.25rem;
+  padding: 1.5rem 0;
+  text-transform: uppercase;
+}
+
+.header {
+  font-size: 3rem;
+  line-height: 3.5rem;
+  font-weight: 900;
+}
+
+.button {
+  margin: 2rem 0 5.25rem;
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .component {
+    padding: 0 7.5px;
+  }
+
+  .paragraph {
+    padding-top: 11.25rem;
+  }
+
+  .button {
+    margin-bottom: 9.25rem;
+    width: auto;
+  }
+}
+
+@media only screen and (min-width: 1006px) {
+  .component {
+    padding: 0 6px;
+  }
+
+  .paragraph {
+    font-size: 0.875rem;
+    font-weight: 400;
+    padding-top: 10.25rem;
+  }
+
+  .header {
+    font-size: 4rem;
+    line-height: 4.5rem;
+    width: 42rem;
+  }
+}
+
+@media only screen and (min-width: 1260px) {
+  .header {
+    width: 48rem;
+  }
+}
