@@ -1,0 +1,65 @@
+@use "../../partials/colours" as c;
+
+.component {
+  border-radius: 6px;
+  box-shadow: 0 5px 10px 0 rgb(0 0 0 / 10%);
+  max-width: 640px;
+
+  a {
+    color: c.$blue;
+    text-decoration: none;
+  }
+}
+
+.image {
+  border-radius: 6px 6px 0 0;
+  width: 100%;
+}
+
+.text_container {
+  padding: 1.25rem 2rem 1.5rem;
+}
+
+.header {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.75rem;
+  margin-bottom: 0.25rem;
+}
+
+.description {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.links_container {
+  display: flex;
+}
+
+.link {
+  font-weight: 500;
+  margin: 1rem 1.5rem 0.5rem 0;
+}
+
+@media only screen and (min-width: 1006px) {
+  .component {
+    width: 50%;
+  }
+
+  .text_container {
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    // flex used for auto-margin in links_container
+  }
+
+  .header {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .links_container {
+    margin-top: auto;
+  }
+}
