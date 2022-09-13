@@ -2,6 +2,7 @@ import Hero from "./components/Hero/Hero";
 import IndustriesSegment from "./segments/Industries/IndustriesSegment";
 import SocialStats from "./components/SocialStats/SocialStats";
 import FeaturedSegment from "./segments/Featured/FeaturedSegment";
+import SuccessSegment from "./segments/Success/SuccessSegment";
 import Hiring from "./components/Hiring/Hiring";
 import Sponsors from "./components/Sponsors/Sponsors";
 import Contact from "./components/Contact/Contact";
@@ -15,6 +16,7 @@ export default function App() {
       <IndustriesSegment />
       <SocialStats />
       <FeaturedSegment />
+      <SuccessSegment />
       <Hiring />
       <Sponsors />
       <Contact />
